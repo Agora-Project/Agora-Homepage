@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Agora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+            #header {
+                background-color:black;
+                color:white;
+                text-align:center;
+                padding:5px;
+            }
+            #references {
+                line-height:30px;
+                background-color:#eeeeee;
+                height:300px;
+                width:350px;
+                float:left;
+                padding:5px;
+            }
+            #title {
+                font-size:200%;
+            }
+            #section {
+                width:580px;
+                float:left;
+                padding:10px;
+            }
+            #forum {
+                line-height:30px;
+                background-color:#eeeeee;
+                height:300px;
+                width:350px;
+                float:right;
+                padding:5px;
+            }
+            #footer {
+                background-color:black;
+                color:white;
+                clear:both;
+                text-align:center;
+                padding:5px;
+            }
+        </style> 
+    </head>
+    <body>
+        <div id="header">
+        <h1>Agora Project</h1>
+        </div>
+        <div id="references">
+            <b id="title">References</b>
+            <p>
+            <a href="https://github.com/Agora-Project/AgoraDevDocs">Github Page</a>
+            <p>
+            <a href="http://www.bay12forums.com/smf/index.php?topic=131460.0">Initial discussion topic on Bay12 Forums</a>
+            <p>
+            <a href="https://docs.google.com/document/d/1CjERoM9jefThEU35WAVT9IALjrYhhYgcAHbBvfgjWbs/edit">Original collaborative Google Doc</a>
+        </div>
+        <div id="section" > Welcome to the Agora Project! The goal of this project 
+            is to create the software for a flexible graph-based forum for discussion 
+            and debate. It will support reconfiguration to many purposes through 
+            a client-interpreted, server-checked protocol. In its final implementation, 
+            each node and edge in the database could be configured to hold arbitrary 
+            data accepted or denied for inclusion by the server, with the client 
+            determining (or not, and ignoring) the data's representation based on 
+            its own knowledge of formats that exist. Additionally, references and 
+            branching to multiple servers will be supported by both server-server 
+            and server-client-server routing, similar to DNS.
+            <p>
+            Initially and as a test-bed for this functionality, the project will 
+            develop towards an implementation of a working online debate system. 
+            Later, support for unregulated and undirected discussion will be investigated 
+            and included in the client/server toolkit we develop.
+        </div>
+        <div id="forum">
+            <a href="http://angle.webfactional.com/JAgoraHTTPServer">Agora Forum</a>
+        </div>
+    </body>
+</html>
